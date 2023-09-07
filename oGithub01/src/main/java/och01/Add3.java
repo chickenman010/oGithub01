@@ -29,7 +29,7 @@ public class Add3 extends HttpServlet {
 	 */									// request에 num,loc 정보를 담음      response = 뿌려줄 정보   
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("doGet 여기왔네");
+		System.out.println("이미 Up 내용을 수정....");
 		
 		// Parameter 받기           request.getParameter로 num과 loc값을 받아서 num, loc에 담음
 		int num = Integer.parseInt(request.getParameter("num"));	// 문자열인 숫자를 int형으로 바꿔서 담음
